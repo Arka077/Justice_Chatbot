@@ -4,7 +4,7 @@ import time
 import streamlit as st
 
 # Apify configuration
-API_TOKEN = 'apify_api_hfDnQ6vMXRVKipdfz8n3Z0j7YBRB3Z3IVwkX'
+API_TOKEN = os.getenv("APIFY_TOKEN")
 ACTOR_ID = 'compass~google-maps-extractor'
 
 def get_current_location():
