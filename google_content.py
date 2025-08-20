@@ -1,7 +1,7 @@
 import os
 from serpapi import GoogleSearch
 
-api_key = "844a6545ac4147d69590c0c880572f5c68c48500be5034e290b391d40a34f3a6"
+api_key = os.getenv("SERPAPI_KEY")
 
 params = {
     "engine": "google",
