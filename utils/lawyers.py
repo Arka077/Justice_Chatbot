@@ -1,4 +1,5 @@
 # utils/lawyers.py
+import os
 import requests
 import time
 import streamlit as st
